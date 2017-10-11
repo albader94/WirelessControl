@@ -9,11 +9,13 @@ the HC-05 blutooth module.
 The mobile application contains 3 files:
 
 -SplashScreen.java
-  Creates the initial screen the user sees, lasts for 3 seconds. 
-
+  Creates the initial screen the user sees, lasts for 3 seconds.
+  
+  
 -DeviceList.java
   Allows the user to pick a bluetooth device from a list of sorrounding blutooth devices.
-
+ 
+ 
 -ledControl.java
   Creates the widgets and sends commands to the Arduino connected to the robot in order to control movement, led's and speed.
   Also controls the connecting and disconnecting to bluetooth.
