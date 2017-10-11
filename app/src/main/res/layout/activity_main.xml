@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/but.right"
+            style="@android:style/Widget.Button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/but.stop"
+            android:background="@drawable/direction_0" />
+
+        <Button
+            android:id="@+id/but.left"
+            style="@android:style/Widget.Button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_toLeftOf="@+id/but.stop"
+            android:layout_centerVertical="true"
+            android:background="@drawable/direction_left_0" />
+
+        <Button
+            android:id="@+id/but.backward"
+            style="@android:style/Widget.Button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/but.stop"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/direction_down_0" />
+
+        <Button
+            android:id="@+id/but.forward"
+            style="@android:style/Widget.Button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/but.stop"
+            android:background="@drawable/direction_up_0" />
+
+        <Button
+            android:id="@+id/but.stop"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/stopon" />
+
+
+        <Button
+            android:id="@+id/but.disc"
+            style="@android:style/Widget.Button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/discoff" />
+
+        <Button
+            android:id="@+id/but.bulb"
+            style="@android:style/Widget.Button"
+            android:layout_width="70dp"
+            android:layout_height="52dp"
+            android:background="@drawable/ledoff"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>
