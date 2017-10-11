@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+   <!--<com.example.albader.wirelesscontrol.Joystick-->
+       <!--android:layout_height="match_parent"-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:id="@+id/testJoystick"/>-->
+
+   <ImageView
+       android:id="@+id/movableHUD"
+       android:layout_width="156dp"
+       android:layout_height="150dp"
+       android:layout_gravity="center"
+       android:background="@drawable/hudhigh"
+       android:paddingRight="500dp" />
+
+   <ImageView
+       android:id="@+id/bottomHUD"
+       android:layout_width="300dp"
+       android:layout_height="300dp"
+       android:layout_gravity="center"
+       android:background="@drawable/hudlow" />
+
+
+</FrameLayout>
