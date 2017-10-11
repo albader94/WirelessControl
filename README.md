@@ -6,7 +6,7 @@ decided to control our robot via bluetooth using an Android mobile application. 
 from scratch with the use of resources such as the Android API guide. In addition the bluetooth module used for this project is
 the HC-05 blutooth module. 
 
-The mobile application contains 4 files:
+The mobile application contains 3 files:
 
 -SplashScreen.java
   Creates the initial screen the user sees, lasts for 3 seconds. 
@@ -18,6 +18,5 @@ The mobile application contains 4 files:
   Creates the widgets and sends commands to the Arduino connected to the robot in order to control movement, led's and speed.
   Also controls the connecting and disconnecting to bluetooth.
 
--MainActivity.java
   
   
