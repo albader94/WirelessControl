@@ -1,4 +1,4 @@
-# WirelessControl
+# ABY
 Android app for bluetooth control of robot
 
 A robot was created for an Electronics Design Lab class at the University of Colorado Boulder. For our final project we
